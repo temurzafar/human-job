@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Human</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <header class="index_header">
+        <nav class="navbar navbar-default main_menu">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand logo" href="#"><img src="images/logo.png" alt=""></a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">О нас</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Услуги <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Партнеры</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Личный кобинет</a></li>
+                        <li class="dropdown for_flag">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="images/flag_russia.png" alt="">RU<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><img src="images/flag_russia.png" alt="">UZ</a></li>
+                                <li><a href="#"><img src="images/flag_russia.png" alt="">ENG</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <div class="main_header" style="background-image: url(images/page_about_header.png);">
+            <img src="images/page_about_header.png" alt="" class="main_top_img">
+            <img src="images/main_vector.png" alt="" class="main_top_left_absolute_img">
+            <img src="images/main_vector_right.png" alt="" class="main_top_right_absolute_img">
+        </div>
+        <div class="container main_header_text_container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main_header_text">
+                        <h1>Регистрация</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="page_registration">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="contentBlockBold">
+                        <h2 class="block_title text-center">Добавить резюме для работы</h2>
+                        <form method="post" id="registration-form" action="">
+                            <h4 class="title-3">Персональная информация</h4>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="formControl">
+                                        <label class="formLabel required">Фамилия</label>
+                                        <div class="field">
+                                            <div class="input text required">
+                                                <input type="text" class="formField" required="required" maxlength="80" id="surname">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="formControl">
+                                        <label class="formLabel required">Имя</label>
+                                        <div class="field">
+                                            <div class="input text required">
+                                                <input type="text" class="formField" required="required" maxlength="80" id="name">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="formControl">
+                                        <label class="formLabel required">Дата рождения</label>
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="field">
+                                                    <div class="input select">
+                                                        <select name="" class="formField" id="birth-date-day">
+                                                            <option selected="selected">День</option>
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                            <option>3</option>
+                                                            <option>4</option>
+                                                            <option>5</option>
+                                                            <option>6</option>
+                                                            <option>7</option>
+                                                            <option>8</option>
+                                                            <option>9</option>
+                                                            <option>10</option>
+                                                            <option>11</option>
+                                                            <option>12</option>
+                                                            <option>13</option>
+                                                            <option>14</option>
+                                                            <option>15</option>
+                                                            <option>16</option>
+                                                            <option>17</option>
+                                                            <option>18</option>
+                                                            <option>19</option>
+                                                            <option>20</option>
+                                                            <option>21</option>
+                                                            <option>22</option>
+                                                            <option>23</option>
+                                                            <option>24</option>
+                                                            <option>25</option>
+                                                            <option>26</option>
+                                                            <option>27</option>
+                                                            <option>28</option>
+                                                            <option>29</option>
+                                                            <option>30</option>
+                                                            <option>31</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-5">
+                                                <div class="field">
+                                                    <div class="input select">
+                                                        <select name="birth_date[month]" class="formField" id="birth-date-month">
+                                                            <option selected="selected">Месяц</option>
+                                                            <option>Январь</option>
+                                                            <option>Февраль</option>
+                                                            <option>Март</option>
+                                                            <option>Апрель</option>
+                                                            <option>Май</option>
+                                                            <option>Июнь</option>
+                                                            <option>Июль</option>
+                                                            <option>Август</option>
+                                                            <option>Сентябрь</option>
+                                                            <option>Октябрь</option>
+                                                            <option>Ноябрь</option>
+                                                            <option>Декабрь</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="field">
+                                                    <div class="input select">
+                                                        <select name="birth_date[year]" class="formField" id="birth-date-year">
+                                                            <option selected="selected">Год</option>
+                                                            <option>2003</option>
+                                                            <option>2002</option>
+                                                            <option>2001</option>
+                                                            <option>2000</option>
+                                                            <option>1999</option>
+                                                            <option>1998</option>
+                                                            <option>1997</option>
+                                                            <option>1996</option>
+                                                            <option>1995</option>
+                                                            <option>1994</option>
+                                                            <option>1993</option>
+                                                            <option>1992</option>
+                                                            <option>1991</option>
+                                                            <option>1990</option>
+                                                            <option>1989</option>
+                                                            <option>1988</option>
+                                                            <option>1987</option>
+                                                            <option>1986</option>
+                                                            <option>1985</option>
+                                                            <option>1984</option>
+                                                            <option>1983</option>
+                                                            <option>1982</option>
+                                                            <option>1981</option>
+                                                            <option>1980</option>
+                                                            <option>1979</option>
+                                                            <option>1978</option>
+                                                            <option>1977</option>
+                                                            <option>1976</option>
+                                                            <option>1975</option>
+                                                            <option>1974</option>
+                                                            <option>1973</option>
+                                                            <option>1972</option>
+                                                            <option>1971</option>
+                                                            <option>1970</option>
+                                                            <option>1969</option>
+                                                            <option>1968</option>
+                                                            <option>1967</option>
+                                                            <option>1966</option>
+                                                            <option>1965</option>
+                                                            <option>1964</option>
+                                                            <option>1963</option>
+                                                            <option>1962</option>
+                                                            <option>1961</option>
+                                                            <option>1960</option>
+                                                            <option>1959</option>
+                                                            <option>1958</option>
+                                                            <option>1957</option>
+                                                            <option>1956</option>
+                                                            <option>1955</option>
+                                                            <option>1954</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="formControl">
+                                                <label class="formLabel required">Пол</label>
+                                                <div class="field">
+                                                    <div class="input select required">
+                                                        <select name="sex" class="formField" required="required" id="sex">
+                                                            <option>Выберите</option>
+                                                            <option>Мужской</option>
+                                                            <option>Женский</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="formControl">
+                                                <label class="formLabel required">Телефон номер</label>
+                                                <div class="field">
+                                                    <div class="input text required">
+                                                        <input type="text" name="phone-number" class="formField" required="required" maxlength="80" id="phone-number">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <h4 class="title-3">Место проживания</h4>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="formControl">
+                                        <label class="formLabel required">Выберите регион</label>
+                                        <div class="input select required">
+                                            <select name="address_region_id" class="formField" required="required" id="address-region-id">
+                                                <option value="">Выберите</option>
+                                                <option value="1">Андижанская область</option>
+                                                <option value="2">Бухарская область</option>
+                                                <option value="3">Джизакская область</option>
+                                                <option value="4">Кашкадарьинская область</option>
+                                                <option value="5">Навоийская область</option>
+                                                <option value="6">Наманганская область</option>
+                                                <option value="7">Самаркандская область</option>
+                                                <option value="8">Сурхандарьинская область</option>
+                                                <option value="9">Сырдарьинская область</option>
+                                                <option value="10">Ташкентская область</option>
+                                                <option value="11">Ферганская область</option>
+                                                <option value="12">Хорезмская область</option>
+                                                <option value="13">Город Ташкент</option>
+                                                <option value="15">Республика Каракалпакстан</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="formControl">
+                                        <label class="formLabel required">Выберите район</label>
+                                        <div class="input select required">
+                                            <select name="address_district_id" class="formField" required="required" id="address-district-id">
+                                                <option>Выберите</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <h4 class="title-3">Образование</h4>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="formControl">
+                                        <label class="formLabel">Укажите уровень образования</label>
+                                        <div class="input select required">
+                                            <select name="education_level_id" class="formField" required="required" id="education-level-id">
+                                                <option value="">Выберите</option>
+                                                <option value="1">Школа 9 классов</option>
+                                                <option value="2">Школа 11 классов</option>
+                                                <option value="3">Колледж, лицей</option>
+                                                <option value="4">Высшее</option>
+                                                <option value="5">Бакалавр</option>
+                                                <option value="6">Магистр</option>
+                                                <option value="8">Кандидат наук</option>
+                                                <option value="9">Доктор наук</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <h4 class="title-3">Предпочтения к работе за рубежом</h4>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="formControl">
+                                        <label class="formLabel">В какой отрасли вы хотели бы работать</label>
+                                        <div class="field">
+                                            <div class="input select">
+                                                <div class="ms-parent formField jq-multiple-select">
+                                                    <span class="glyphicon glyphicon-triangle-bottom"></span>
+                                                    <input type="text" name="" class="formField" id="what_work_like" placeholder="Выберите" value="Выберите" readonly="readonly">
+                                                    <div class="ms-drop bottom">
+                                                        <ul style="max-height: 250px;">
+                                                            <li class="ms-select-all">
+                                                                <label>
+                                                                    <span>[Любая отрасль]</span>
+                                                                </label>
+                                                            </li>
+                                                            <li class="" style="false">
+                                                                <label class="">
+                                                                    <input type="checkbox"><span>Стройтельство</span>
+                                                                </label>
+                                                            </li>
+                                                            <li class="" style="false">
+                                                                <label class="">
+                                                                    <input type="checkbox"><span>Сфера услуг</span>
+                                                                </label>
+                                                            </li>
+                                                            <li class="" style="false">
+                                                                <label class="">
+                                                                    <input type="checkbox"><span>Общепит</span>
+                                                                </label>
+                                                            </li>
+                                                            <li class="" style="false">
+                                                                <label class="">
+                                                                    <input type="checkbox"><span>Торговля</span>
+                                                                </label>
+                                                            </li>
+                                                            <li class="ms-no-results">
+                                                                <label class="">
+                                                                    <span>Не найдено</span>
+                                                                </label>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="formControl">
+                                        <label class="formLabel">Кем вы хотели бы работать</label>
+                                        <div class="wrapCloneFields">
+                                            <div class="field FiledMain">
+                                                <div class="input text">
+                                                    <input type="text" name="" class="formField for-clone-input">
+                                                </div>
+                                                <div class="textRight">
+                                                    <a href="#" class="btnAddRemove dec-n">- Удалить</a>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="btnAddField dec-n ">+ Добавить еще</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="formControl">
+                                        <label class="formLabel">В какой стране вы хотели бы работать</label>
+                                        <div class="field">
+                                            <div class="input select">
+                                                <div class="ms-parent formField jq-multiple-select">
+                                                    <span class="glyphicon glyphicon-triangle-bottom"></span>
+                                                    <input type="text" name="" class="formField" id="desirable_countries" placeholder="Выберите" value="Выберите" readonly="readonly">
+                                                    <div class="ms-drop bottom">
+                                                        <ul style="max-height: 250px;">
+                                                            <li class="ms-no-results">
+                                                                <label>
+                                                                    <span>[Не имеет значения]</span>
+                                                                </label>
+                                                            </li>
+                                                            <li class="">
+                                                                <label class="">
+                                                                    <input type="checkbox">
+                                                                    <span>Россия</span>
+                                                                </label>
+                                                            </li>
+                                                            <li class="">
+                                                                <label class="">
+                                                                    <input type="checkbox">
+                                                                    <span>Корея</span>
+                                                                </label>
+                                                            </li>
+                                                            <li class="">
+                                                                <label class="">
+                                                                    <input type="checkbox">
+                                                                    <span>Казахстан</span>
+                                                                </label>
+                                                            </li>
+                                                            <li class="">
+                                                                <label class="">
+                                                                    <input type="checkbox">
+                                                                    <span>Турция</span>
+                                                                </label>
+                                                            </li>
+                                                            <li class="">
+                                                                <label class="">
+                                                                    <input type="checkbox">
+                                                                    <span>Япония</span>
+                                                                </label>
+                                                            </li>
+                                                            <li class="">
+                                                                <label class="">
+                                                                    <input type="checkbox">
+                                                                    <span>Страны ЕС</span>
+                                                                </label>
+                                                            </li>
+                                                            <li class="">
+                                                                <label class="">
+                                                                    <input type="checkbox">
+                                                                    <span>Америка</span>
+                                                                </label>
+                                                            </li>
+                                                            <li class="ms-no-results"><span>Не найдено</span></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="formControl">
+                                        <label class="formLabel">В какой стране вы НЕ ХОТЕЛИ бы работать</label>
+                                        <div class="field">
+                                            <div class="input select">
+                                                <div class="ms-parent formField jq-multiple-select">
+                                                    <span class="glyphicon glyphicon-triangle-bottom"></span>
+                                                    <input type="text" name="" class="formField" id="undesirable_countries" placeholder="Выберите" value="Выберите" readonly="readonly">
+                                                    <div class="ms-drop bottom">
+                                                        <ul style="max-height: 250px;">
+                                                            <li class="ms-no-results">
+                                                                <label>
+                                                                    <span>[Не имеет значения]</span>
+                                                                </label>
+                                                            </li>
+                                                            <li class="">
+                                                                <label class="">
+                                                                    <input type="checkbox">
+                                                                    <span>Россия</span>
+                                                                </label>
+                                                            </li>
+                                                            <li class="">
+                                                                <label class="">
+                                                                    <input type="checkbox">
+                                                                    <span>Корея</span>
+                                                                </label>
+                                                            </li>
+                                                            <li class="">
+                                                                <label class="">
+                                                                    <input type="checkbox">
+                                                                    <span>Казахстан</span>
+                                                                </label>
+                                                            </li>
+                                                            <li class="">
+                                                                <label class="">
+                                                                    <input type="checkbox">
+                                                                    <span>Турция</span>
+                                                                </label>
+                                                            </li>
+                                                            <li class="">
+                                                                <label class="">
+                                                                    <input type="checkbox">
+                                                                    <span>Япония</span>
+                                                                </label>
+                                                            </li>
+                                                            <li class="">
+                                                                <label class="">
+                                                                    <input type="checkbox">
+                                                                    <span>Страны ЕС</span>
+                                                                </label>
+                                                            </li>
+                                                            <li class="">
+                                                                <label class="">
+                                                                    <input type="checkbox">
+                                                                    <span>Америка</span>
+                                                                </label>
+                                                            </li>
+                                                            <li class="ms-no-results">
+                                                                <label>
+                                                                    <span>Не найдено</span>
+                                                                </label>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="formSubmit">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <p>Нажимая "Отправить" вы соглашаетесь с <a href="#" target="_blank">правилами публичной оферты</a></p>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <button class="btn0 btnBlock btn1 btnBold" type="submit">Отправить</button>                        
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row footer_top">
+                <div class="col-md-3"><img src="images/logo.png" alt=""></div>
+                <div class="col-md-3">
+                    <ul>
+                        <li>
+                            <a href="#">Вакансии</a>
+                        </li>
+                        <li>
+                            <a href="#">Работа за границей</a>
+                        </li>
+                        <li>
+                            <a href="#">О нас</a>
+                        </li>
+                        <li>
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul>
+                        <li>
+                            <a href="#">Вакансии</a>
+                        </li>
+                        <li>
+                            <a href="#">Работа за границей</a>
+                        </li>
+                        <li>
+                            <a href="#">О нас</a>
+                        </li>
+                        <li>
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul>
+                        <li>
+                            <a href="#">Вакансии</a>
+                        </li>
+                        <li>
+                            <a href="#">Работа за границей</a>
+                        </li>
+                        <li>
+                            <a href="#">О нас</a>
+                        </li>
+                        <li>
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row footer_bottom">
+                <div class="col-md-4"><p class="copy">Copyright © 2018 Human. All Rights Reserved.</p></div>
+                <div class="col-md-4 footer_social text-center">
+                    <a href="#"><img src="images/social_google.png" alt=""></a>
+                    <a href="#"><img src="images/social_facebook.png" alt=""></a>
+                    <a href="#"><img src="images/social_instagram.png" alt=""></a>
+                    <a href="#"><img src="images/social_telegram.png" alt=""></a>
+                </div>
+                <div class="col-md-4"><p class="oe text-right">Сайт разработат в <a href="https://oe.uz/">OPEN ENGINE</a></p></div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
